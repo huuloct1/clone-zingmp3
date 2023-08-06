@@ -1,0 +1,114 @@
+* { 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.public{
+  display: flex;
+  width: 100%;
+}
+
+.sidebarLeft{
+  flex: none;
+  width: 240px;
+  border: 1px solid #000;
+  overflow-y: auto;
+}
+
+.sidebarLeft .sidebarLeft-Logo{
+  padding: 0 25px 0 28px;
+  height: 70px;
+}
+
+.sidebarLeft .sidebarLeft-Logo img{
+  width: 120px;
+  height: 40px;
+  padding: 15px 0;
+}
+
+.sidebarLeft .sidebarLeft-Menu {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 15px 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sidebarLeft .sidebarLeft-Menu a{
+  padding: 12px 0;
+  padding-left: 15px;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  opacity: 70%;
+}
+
+.sidebarLeft .sidebarLeft-Menu a:hover{
+  opacity: 100%;
+}
+
+.sidebarLeft .sidebarLeft-Menu svg{
+  padding-right: 12px;
+}
+
+.public .sidebarRight{
+  display: none;
+  flex: none;
+  width: 329px;
+  border: 1px solid #000;
+}
+
+.public .main{
+  flex: auto;
+  border: 1px solid blue;
+}
+
+.main .header{
+  height: 70px;
+  background-color: aquamarine;
+  padding: 0 59px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .header .left {
+  align-items: center;
+  display: flex;
+  background-color: blueviolet;
+  height: 34px;
+}
+
+.main .header .direction{
+  padding:  10px;
+}
+
+.main .header .direction button{
+  height: 34px;
+  width: 44px;
+  border: none;
+}
+
+.main .header .search{
+  width: 440px;
+  display: flex;
+  align-items: center;
+  background-color: bisque;
+  border-radius: 16px;
+}
+
+.main .header .search svg{
+  padding: 0 5px;
+}
+
+.main .header .search input{
+  height: 24px;
+  border: none;
+  width: 406px;
+  margin: 5px 17px 5px 0;
+}
+
+.main .header .right img{
+  width: 34px;
+}
